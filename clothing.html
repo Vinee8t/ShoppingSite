@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cloth</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+        <link href="cloth.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="head">
+            <div class="menu">
+                <span><a href="homepage.html">Home</a></span>
+                <span id="username" style=" border: 2px solid gray; border-radius: 5px;"><a href="#"></a></span> 
+                <span><button id="logOutbtn" onclick="Outfunc()">Log Out</button></span>  
+              </div>
+               <br>
+               <br>
+            <div class="intext">
+              <h1 id="heading">CLOTHING</h1>
+              <div id="innertext">
+                <button type="button" onclick="scroll()">Checkout our Clothing Collection ➡️</button>
+              </div>
+            </div>
+        </div>
+        
+            <div class="searchContainer">
+              <a href="cart.html">  
+                <div id="cart">
+                  
+                  <p>CART</p>
+                  <h3 id="cartNum">0</h3>
+                </div>
+              </a>
+                <div>
+                  <form action="homepage.html" style="display: flex; padding-top: 40px;">
+                  <input type="search" name="search" placeholder="Search">
+                  <button>Search</button>
+                </form>
+              </div>
+                
+              </div>
+        
+              <div class="con_contain" id="container">     
+                <div class="cards">
+                  <div id="imgcloth1">
+                    <img src="https://m.media-amazon.com/images/I/71aMn5xDb+L._UL1500_.jpg" style="width: 400px;height: 328px;border-radius: 25px;">
+                  </div>
+                  
+                    <h1 id="clothDec1">Adidas Men Polo Shirt</h1>
+                    <p>Adidas polo T shrit for male adult. Experience perfect blend of style and comfort in this men's polo t-shirt.</p>
+                    <p>Care Instructions: Machine Wash
+                    Fit Type: Fitted
+                    100% Recycled.Polyester
+                    </p>
+                    <p>Product Dimensions ‏ : ‎ 34 x 23 x 1 cm; 180 Grams
+                        Date First Available ‏ : ‎ 15 October 2022
+                        Manufacturer ‏ : ‎ Adidas India Marketing Private Ltd.
+                        ASIN ‏ : ‎ B0BJ9JKN67
+                        Item model number ‏ : ‎ IB8104
+                        Country of Origin ‏ : ‎ India
+                        Department ‏ : ‎ Men
+                        Manufacturer ‏ : ‎ Adidas India Marketing Private Ltd., Adidas India Marketing Private Ltd. Office no.6, 2nd Floor, Sector-B, Pocket-7, Plot no-11, Vasant Kunj, New Delhi-110070
+                        Packer ‏ : ‎ Adidas India Marketing Private Ltd. Office no.6, 2nd Floor, Sector-B, Pocket-7, Plot no-11, Vasant Kunj, New Delhi-110070
+                        Item Weight ‏ : ‎ 180 g
+                        Item Dimensions LxWxH ‏ : ‎ 34 x 23 x 1 Centimeters
+                        Generic Name ‏ : ‎ Polo Shirt
+                        Best Sellers Rank: #23,622 in Clothing & Accessories </p>
+                    <p id="price1">PRICE : Rs.1,439</p>
+                 
+                    <div id="btn"><button id="btn1" onclick="increment()" type="button" >Add To Cart</button></div>
+                 </div>
+                <div class="cards">
+                    <div id="imgcloth2">
+                      <img src="https://m.media-amazon.com/images/I/718cWJKxPXL._UL1500_.jpg" style="width: 400px;height: 328px;border-radius: 25px;">
+                    </div>
+                      <h1 id="clothDec2">Tommy Hilfiger Men Sweatpants</h1>
+                      <p>Care Instructions: Machine Wash
+                        Fit Type: Slim
+                        Category : Trouser
+                        Fabric Composition : 100% Transitional Organic Cotton
+                        Season Code : SP23
+                        Gender : Men
+                        Pack Content : 1 Trouser</p>
+                        <p>Product Dimensions ‏ : ‎ 40 x 33 x 40 cm; 518 Grams
+                            Date First Available ‏ : ‎ 13 December 2022
+                            ASIN ‏ : ‎ B0BPXVF5TZ
+                            Item model number ‏ : ‎ S23JMND012
+                            Country of Origin ‏ : ‎ Bangladesh
+                            Department ‏ : ‎ Men
+                            Importer ‏ : ‎ PVH Arvind Fashion Pvt. Ltd No.4, Brunton 1st Cross Road Bangalore-560025
+                            Item Weight ‏ : ‎ 518 g
+                            Item Dimensions LxWxH ‏ : ‎ 40 x 33 x 40 Centimeters
+                            Generic Name ‏ : ‎ Sweatpants</p>
+                            <p>Generic Name ‏ : ‎ Sweatpants
+                                Best Sellers Rank: #1,542,664 in Clothing & Accessories (See Top 100 in Clothing & Accessories)
+                                #430 in Men's Sweatpants</p>
+                      <p id="price2">PRICE : Rs.3,862</p>
+                      <div id="btn"><button id="btn2" onclick="increment()" type="button" >Add To Cart</button></div>
+                      
+                </div>
+                <div class="cards">
+                  <div id="imgcloth3">
+                    <img src="https://m.media-amazon.com/images/I/7140ABYo7sL._UL1500_.jpg" style="width: 400px;height: 328px;border-radius: 25px;">
+                  </div>
+                 
+                    <h1 id="clothDec3">Janasya Women's Poly Crepe Solid High Low Kurta</h1>
+                    <p>Care Instructions: Hand Wash
+                        Fit Type: Regular
+                        Material: Polyester Crepe
+                        Color: Black
+                        Length: Calf Length
+                        Neck Style: Banded Collar; Sleeve Type: 3/4th Sleeve
+                        Package Contents: 1 Kurta</p>
+                    <p>This stylish kurta from janasya is made of polyester crepe and comes in an attractive blue color. It features 3/4th sleeve, side slit , round neck and it is calf-long kurta that is suitable for casual occasions.
+                         Team it with matching leggings for a chic look.</p>
+                         <p>Taking style inspiration from what's hitting the runways to the latest street style, 
+                            Canvi aims to create covetable, comfortable, fashionable and stylish footwear designs.
+                             Our quality control team oversees every part of the manufacturing process. 
+                            </p>
+                    <p id="price3">PRICE : Rs.459</p>
+                    <div id="btn"><button id="btn3" onclick="increment()" type="button">Add To Cart</button></div>
+                </div>
+                <div class="cards">
+                    <div id="imgcloth4">
+                      <img src="https://m.media-amazon.com/images/I/81XdwDrTVdL._UL1500_.jpg" style="width: 400px;height: 328px;border-radius: 25px;">
+                    </div>
+                      <h1 id="clothDec4">Yashika Women Art Silk Lace Printed Saree Free Size (AIR) </h1>
+                      <p>Care Instructions: Dry Clean Only
+                        Care Instructions: Dry clean only
+                        Saree Fabric:Art Silk, Blouse Fabric :Art Silk
+                        75% Art Silk, 25% Silk blend
+                        Occassion - Party Wear || Evening Wear || Wedding Wear</p>
+                      
+                         <p>Introduction: This Art Silk style saree brought to you by Yashika is the ideal saree for All Seasons when it is important to look stylis
+                            h while feeling comfortable. With the right material and drape,
+                             it can accentuate the beauty of women of all ages and forms. Be 
+                            it a festival or a wedding, sarees are a hot favourite worldwide, Sarees give you the opportunity to give a modern touch to a traditiona
+                            l Indian attire. Color: The six yards long saree comes in strikingly gorgeous shades that are not just bright but also pleasant.
+                             Material: Chandheri Silk A lightweight, and comfortable weave that is also lustrous, This fabric has a soft feel.</p>
+
+                      <p id="price4">PRICE : Rs.459</p>
+                      <div id="btn"><button id="btn4" onclick="increment()" type="button" >Add To Cart</button></div>
+                      
+                </div>
+                <div class="cards">
+                    <div id="imgcloth5">
+                      <img src="https://m.media-amazon.com/images/I/51Lok4kaAiL.jpg" style="width: 400px;height: 328px;border-radius: 25px;">
+                    </div>
+                      <h1 id="clothDec5">Marks & Spencer Floral Round Neck Midaxi Tea Dress</h1>
+                      <p>Care Instructions: Machine Wash
+                        Fit Type: Regular</p>
+                      <p>Product Dimensions ‏ : ‎ 10 x 10 x 10 cm; 100 Grams
+                        Date First Available ‏ : ‎ 10 January 2023
+                        Manufacturer ‏ : ‎ marks & spencer
+                        ASIN ‏ : ‎ B0BS19QRTR
+                        Item part number ‏ : ‎ 60551692019
+                        Country of Origin ‏ : ‎ Turkey
+                        Department ‏ : ‎ Women
+                        Manufacturer ‏ : ‎ marks & spencer
+                        Item Weight ‏ : ‎ 100 g
+                        Item Dimensions LxWxH ‏ : ‎ 10 x 10 x 10 Centimeters
+                        Best Sellers Rank: #42,923 in Clothing & Accessories (See Top 100 in Clothing & Accessories)
+                        #1,389 in Women's Dresses</p>
+                        <p></p>
+                      <p id="price1">PRICE : Rs.2,390</p>
+                      
+                      <div id="btn"><button id="btn5" onclick="increment()" type="button" >Add To Cart</button></div>
+                      
+                </div>
+                <div class="cards">
+                    <div id="imgcloth6">
+                      <img src="https://m.media-amazon.com/images/I/71Gy0SzKk5L._UL1500_.jpg" style="width: 400px;height: 328px;border-radius: 25px;">
+                    </div>
+                      <h1 id="clothDec6">Urbano Fashion Men's Regular Fit Washed Full Sleeve Denim Jacket</h1>
+                      <p>   Age Range Description: Adult
+                        Sleeve Type: Long Sleeve</p>
+                        <p>Urbano Fashion is a young and bold fashion brand, which brings to you the latest trends in men's fashion.
+                             We aspire to epitomize and bring the right balance between style and comfort in our products. In today's 
+                             fast paced world, our endeavor is to innovate and differentiate our product line to cater to the trend-setting
+                              generation. Keeping our customer's happiness as our primary goal, we are ever striving to launch unique styles
+                               and adding value to India's fashion conscious wardrobes. Select from our wide fashionable range of Jeans, 
+                               T-Shirts, Shirts, Trousers, Chinos, Sweatshirts, Jackets and more,
+                             and be rest assured to have a smile on your face, look good and feel good.</p>
+                      <p id="price6">PRICE : Rs.1,199</p>
+                      <div id="btn"><button id="btn6" onclick="increment()" type="button" >Add To Cart</button></div>
+                      
+                </div>
+                
+              </div>
+              
+              <script src="script.js"></script>
+              <script src="clothscript.js"></script>
+    </body>
+</html>

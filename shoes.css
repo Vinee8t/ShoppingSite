@@ -1,0 +1,275 @@
+*
+{
+    font-family: 'Chakra Petch', sans-serif;
+}
+*a
+{
+    text-decoration: none;
+}
+body
+{
+    background-color: rgb(244, 240, 244);
+}
+.head
+{
+    background-image: url("https://img.freepik.com/free-photo/top-view-sneakers-white-background-fitness-wear-equipment-sport-fashion-sport-accessories-sport-equipment-healthy-concept-copy-space-concept-healthy-lifestyle-sport-diet-sport-equipment_1391-724.jpg?w=2000");
+    background-size: cover;
+    background-position: 0px 600px;
+    height: 500px;
+    border-radius: 5px;
+   
+}
+.intext
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   justify-items: center;
+   z-index: -1;
+  
+}
+
+#heading
+{
+    font-size: 170px;
+    margin: 60px;
+    margin-left: 610px;
+    text-shadow: 2px 1px 1px 3px silver;
+  
+}
+#innertext
+{
+    border: 0px;
+    border-radius: 5px;
+    width: 400px;
+    height: 180px;
+    background-color: rgb(233, 229, 229);
+    opacity: 0.6;
+    margin-top: -100px;
+    margin-left: 910px;
+    text-align: center;
+    padding-top: 30px;
+}
+#innertext:hover
+{
+    background-color: rgb(140, 153, 227);
+    z-index: 1;
+    opacity: 0.8;
+}
+#innertext a{
+    text-decoration: none;
+    color: black;
+}
+#innertext h2
+{
+    opacity: 0.8;
+    
+    font-size: 30px;
+    text-shadow: 2px 1px 1px 3px silver;
+   
+}
+
+
+.searchContainer 
+{
+    width: 95%;
+    border: 0px solid black;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 3px 2px 2px 4px silver;
+    border-radius: 8px;
+    background-image: url("https://i.gifer.com/Iq32.gif");
+    background-size: cover;
+}
+   
+.searchContainer input
+{
+    width: 550px;
+    text-align: center;
+    font-size: 22px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: rgb(210, 213, 204);
+    opacity: 0.76;
+}
+.searchContainer button
+{
+    width: 15%;
+    height: 47px;
+    text-align: center;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: rgb(35, 184, 218);
+    margin-left: 2px;
+}
+.searchContainer button:hover
+{
+    background-color: rgb(8, 96, 114);
+    color: white;
+}
+.searchContainer a
+{
+text-decoration: none;
+color: black;
+}
+.search-container1 button {
+    margin-left: 602px;
+    padding: 3px;
+    margin-top: 06px;
+    
+    background: #2196F3;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .search-container1 button:hover {
+    color: #2196F3;
+    background-color: rgb(188, 253, 243);
+  }
+  
+.search-container1 [type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+#cart
+{
+    border: 0px solid;
+    width: 140px;
+    border-radius: 200px;
+    color: aliceblue;
+    box-shadow: 1px 1px 1px 1px grey;
+    cursor: pointer;
+}
+#cart:hover
+{
+    box-shadow: 0px 0px 0px 0px;
+}
+
+
+
+.menu
+{
+  position:fixed;
+  left:0px;
+  top:-50px;
+  z-index: 1;
+  width:100vw;
+  padding:20px;
+  text-align:center;
+  opacity: 0.9;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.6);
+  
+  font-size:20px;
+  color:rgb(0, 0, 0);
+  
+  /* transition */
+  
+  transition:top 1s;
+  -webkit-transition:top 1s;
+  
+}
+
+.menu:hover
+{
+  top:0px;  
+}
+
+
+/* SPAN OF SPAN */
+
+.menu span
+{
+  margin:70px;  
+}
+
+.menu span a:hover
+{
+    text-decoration: none;
+  color:rgba(135, 134, 134, 0.5);  
+}
+
+
+
+/* Body and Title*/
+
+.menu a
+{
+  text-decoration:none;
+  color:rgb(0, 0, 0);
+}
+
+.con_contain
+{
+    border: 2px solid blue;
+    z-index: 111;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards
+{
+    max-width: 450px;
+    max-height: 900px;
+    border: 0px solid ;
+    justify-content: space-around;
+    margin: 10px;
+    display: block;
+    border-radius: 17px;
+    box-shadow: 3px 2px 3px 3px grey;
+    padding-left: 30px;
+    padding-right: -100px;
+}
+.cards:hover
+{
+    box-shadow: 1px 2px grey;
+}
+#btn
+{
+    justify-self: end;
+}
+.cards button
+{
+   margin-left: 35%;
+   font-size: 15px;
+   border-radius: 4px;
+   border: none;
+   background-color: brown;
+   color: white;
+   height: 40px;
+   cursor: pointer;
+   justify-content: flex-end ;
+  margin-bottom: 5px;
+
+}
+#shoes1
+{
+   display: flex;
+   flex-direction: column;
+   border: 2px green;
+}
+#logOutbtn
+{
+   
+    font-size: 18px;
+    text-decoration: none;
+    background-color: goldenrod;
+    border: 0px;
+    border-radius: 4px;
+    
+}
+#logOutbtn:hover
+{
+    text-decoration: none;
+    background-color: rgb(156, 115, 11);
+}
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+        <link href="cart.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="head">
+            <div class="menu">
+                <span><a href="homepage.html">Home</a></span>
+                <span id="username" style=" border: 2px solid gray; border-radius: 5px;"><a href="#"></a></span> 
+                <span><button id="logOutbtn" onclick="Outfunc()">Log Out</button></span>  
+              </div>
+               <br>
+               <br>
+            <div class="intext">
+              <h1 id="heading"> Cart</h1>
+            </div>
+        </div>
+        <div class="container">
+             <div class="cart_content" id="contents" >
+
+            </div>
+            <div class="cart_content1" id="contents1" >
+
+            </div>
+        </div>
+        <button id="check" onclick="showOrderComplete()">Checkout</button>
+        <div class="order-complete hidden">
+            Your order has been completed!
+          </div>
+        
+        <script src="cart.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

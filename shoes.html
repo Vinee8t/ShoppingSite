@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+        <link href="shoes.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="head">
+            <div class="menu">
+                <span><a href="homepage.html">Home</a></span>
+                <span id="username" style=" border: 2px solid gray; border-radius: 5px;"><a href="#"></a></span> 
+                <span><button id="logOutbtn" onclick="Outfunc()">Log Out</button></span>   
+              </div>
+               <br>
+               <br>
+            <div class="intext">
+              <h1 id="heading">FOOTWEAR</h1>
+              <div id="innertext">
+                 <h2><a href="con_contain">Checkout our Footwear Collection ➡️</a></h2>
+              </div>
+            </div>
+        </div>
+        
+            <div class="searchContainer">
+              <a href="cart.html">
+                <div id="cart">
+                  
+                  <p>CART</p>
+                  <h3 id="cartNum">0</h3>
+                </div>
+                </a>
+                
+                <div>
+                  <form action="homepage.html" style="display: flex; padding-top: 40px;">
+                  <input type="search" name="search" placeholder="Search">
+                  <button>Search</button>
+                </form>
+              </div>
+                
+              </div>
+        
+              <div class="con_contain">     
+                <div class="cards">
+                  <div id="imgshoe1">
+                    <img src="https://m.media-amazon.com/images/I/61DSEfdR2NL._UL1043_.jpg" style="width: 400px;height: 328px;border-radius: 25px;">
+                  </div>
+                  
+                    <h1 id="shoeDec1">TRACES Stylish Trendy Lightweight Canvas Casual High Top Sneaker</h1>
+                    <p></p>
+                    <p>Lightweight & Breathable, Daily wear & Home Washable with Exclusive designs and Durable materials every step feels light and breezy. Breathable, free-moving fabrics which adjust according to your foot and create an astoundingly easy-going experience. Made with the sense of the latest fashion trends. Made for long-term wear, to provide comfort to the feet, Comfort Sole & Flexible Walk: The outsoles are made by an air cushion, doubling the effect of shock absorption. Besides, these shoes perform excellently in durability and are also slip-resistant. It provides comfort to your every step.</p>
+                    <p id="price1">PRICE : Rs.789</p>
+                 
+                    <div id="btn"><button id="btn1" onclick="increment()" type="button" >Add To Cart</button></div>
+                 </div>
+                <div class="cards">
+                    <div id="imgshoe2">
+                      <img src="https://m.media-amazon.com/images/I/61BNN-LC8LL._UL1140_.jpg" style="width: 400px;height: 328px;border-radius: 25px;">
+                    </div>
+                      <h1 id="shoeDec2">Nike Mens Air Jordan 1 Mid Basketball Shoes</h1>
+                      
+                      <p>Nike basketball shoes for men deliver the support, comfort and traction needed to compete at the highest levels. Shop technology-infused classics, street style all-stars, or Enhanced Performance (EP) basketball shoes which feature a wider base. Some EP varieties have the added bonus of extra durable rubber (XDR) made specifically for outdoor games. Find the shoe styles that suit you.</p>
+                      <p>Sole: Rubber
+                        Closure: Lace-Up
+                        Shoe Width: Medium
+                        Limited Nike Air Jordan 1 Mid SE
+                        Sku: BQ6931-102
+                        Color: White/Hyper Royal-Black
+                        Grade School Sizing
+                        Warranty not applicable for this product</p>
+                      <p id="price2">PRICE : Rs.55,250</p>
+                      <div id="btn"><button id="btn2" onclick="increment()" type="button" >Add To Cart</button></div>
+                      
+                </div>
+                <div class="cards">
+                  <div id="imgshoe3">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/374765/09/fnd/IND/fmt/png/Rebound-Joy-Men's-Sneakers" style="width: 420px;height: 328px;border-radius: 25px;">
+                  </div>
+                 
+                    <h1 id="shoeDec3">Rebound Joy Men's Sneakers</h1>
+                    <p></p>
+                    <p>Here's a basketball-inspired shoe that's going to change the game. A dash of retro inspiration combines with PUMA's DNA to create a shoe that looks good both on the court and off. It's got the flexibility you want and, thanks to the SoftFoam+ sockliner, it's going to give you the support you need. A final touch is the perforations, which give this shoe a trendy, more aerodynamic look.
+                      SoftFoam+: PUMA's comfort sockliner for instant step-in and long-lasting comfort that provides soft cushioning every step of your day
+                      Mid boot
+                      Synthetic upper with TPU
+                      SoftFoam+ sockliner for comfort and cushioning
+                      Rubber midsole for ankle support
+                      Rubber outsole
+                      PUMA branding
+                      Style: 374765_09
+                      Color: Puma White-Puma Black-High Risk Red-Puma White</p>
+                    <p id="price3">PRICE : Rs.3,079</p>
+                    <div id="btn"><button id="btn3" onclick="increment()" type="button">Add To Cart</button></div>
+                </div>
+                <div class="cards">
+                    <div id="imgshoe4">
+                      <img src="https://m.media-amazon.com/images/I/31jW8aJVFUL.jpg" style="width: 400px;height: 328px;border-radius: 25px;">
+                    </div>
+                      <h1 id="shoeDec4">CANVI - TAKE CHANGE TO MAKE CHANGE Women's Ethnic Flats Sandals </h1>
+                      <p></p>
+                      <p>Taking style inspiration from what's hitting the runways to the latest street style, 
+                        Canvi aims to create covetable, comfortable, fashionable and stylish footwear designs.
+                         Our quality control team oversees every part of the manufacturing process. 
+                         We pride ourselves on our attention and dedication to detail design without sparing comfort.
+                          Add a fancy sparkle to your wardrobe with this gorgeous flat sandal! 
+                          The unique blend of colours makes this pair a necessary add-on to your wardrobe. 
+                          Comfortable and elegant, it will take you from day to night every season.
+                           Get a comfortable feeling by wearing these multi coloured flip-flops,Sandal & 
+                           Slippers for Women from CANVI.
+                         You can team these Sandal with casuals of your choice to look stylish.</p>
+                      <p id="price4">PRICE : Rs.499</p>
+                      <div id="btn"><button id="btn4" onclick="increment()" type="button" >Add To Cart</button></div>
+                      
+                </div>
+                <div class="cards">
+                    <div id="imgshoe5">
+                      <img src="https://m.media-amazon.com/images/I/91EAw2e+QLL._UL1500_.jpg" style="width: 400px;height: 328px;border-radius: 25px;">
+                    </div>
+                      <h1 id="shoeDec5">Woodland Mens Gc 1869115nw Sneaker</h1>
+                      <p>Make a dazzling fashion statement with these Woodland casual Shoes . 
+                        It features a leather upper that provides comfort and enhances the overall look. 
+                        The slip-resistant, durable TPR/
+                         Rubber sole ensures a firm grip on multiple surfaces. Suitable for casual occasions.</p>
+                      <p>Sole: Thermoplastic Elastomers
+                        Closure: Lace-Up
+                        Shoe Width: Medium
+                        Casual Leather Shoes</p>
+                        <p>Item Weight ‏ : ‎ 1 kg 70 g
+                          Item Dimensions LxWxH ‏ : ‎ 28 x 10.5 x 115 Centimeters
+                          Generic Name ‏ : ‎ Sneaker
+                          Best Sellers Rank: #409 in Shoes & Handbags (See Top 100 in Shoes & Handbags)
+                          #39 in Men's Sneakerss
+                          Manufacturer ‏ : ‎ Aero Club,Woodland
+                          ASIN ‏ : ‎ B0BR5N11GN
+                          Item model number ‏ : ‎ GC 1869115NW
+                          Country of Origin ‏ : ‎ India
+                          Department ‏ : ‎ Mens</p>
+                      <p id="price1">PRICE : Rs.3,020</p>
+                      
+                      <div id="btn"><button id="btn5" onclick="increment()" type="button" >Add To Cart</button></div>
+                      
+                </div>
+                <div class="cards">
+                    <div id="imgshoe6">
+                      <img src="https://m.media-amazon.com/images/I/811TwRatCrL._SX679_.jpg" style="width: 400px;height: 328px;border-radius: 25px;">
+                    </div>
+                      <h1 id="shoeDec6">Salomon Men's Quest 4 GTX Hiking & Backpacking Shoe</h1>
+                      <p>Protective Rubber-A protective piece of rubber, leather or synthetic material over the toe area.
+                        Protective mudguard-A wrap of leather, synthetic or rubber around the base of the foot that protects the lateral and medial sides of the foot.
+                        Lace locker-A locking eyelet between the forefoot and ankle eyelets that locks the laces in place, enabling independent and precise adjustment.</p>
+                      <p>Designed for long expeditions and tough conditions, the QUEST is grippy and supportive. We’ve updated the chassis to target sensitive articulations and wrap the foot for extra support, while also keeping your stride fluid. No matter how tired you are or how heavy your pack, the QUEST 4 GTX ensures a stable yet smooth ride on any terrain. The stable & supportive backpacking shoe that delivers a smooth ride.</p>
+                      <p id="price6">PRICE : Rs.41,664</p>
+                      <div id="btn"><button id="btn6" onclick="increment()" type="button" >Add To Cart</button></div>
+                      
+                </div>
+                
+              </div>
+              <script src="script.js"></script>
+              <script src="shoe.js"></script>
+    </body>
+</html>

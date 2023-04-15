@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            E-Commerce
+        </title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color: rgba(227, 211, 240, 0.522);">
+        <div class="topnav" style="border-radius: 0px;">
+            <a class="active" href="index.html">Home</a>
+            <a href="account.html">Account</a>
+            <a href="#contact">Contact</a>
+            <a href="#filter">Filter</a>
+            <div class="search-container">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        
+        
+          <div style="display: grid;grid-template-columns: 0.5fr 4fr;">
+            <div><img src="C:\xampp\htdocs\Project\SOHO\Photos\icons8-globe.gif" style="width: 99px;"></div>
+            <div>
+      <h1 align="center" class="heading"><img src="C:\xampp\htdocs\Project\SOHO\Photos\icons8-lazada-100.png" style="margin-left: -155px;">
+        E-Buy
+        <img src="C:\xampp\htdocs\Project\SOHO\Photos\icons8-lazada-.png" style="margin-left: -15px;">
+      </h1>
+    </div></div>
+        <div class="container">
+              
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="border-radius: 3px; width: 100%;height: 400px;left: -15px;">
+              
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                
+              </ol>
+          
+              
+              <div class="carousel-inner">
+                <div class="item active">
+                    <img src="C:\xampp\htdocs\Project\SOHO\Photos\product1-1.png" style="width:1500px; height: 400px">
+                </div>
+          
+                
+              
+                <div class="item">
+                    <img src="C:\xampp\htdocs\Project\SOHO\Photos\product3.png"  style="width:1300px; height: 400px;">
+                </div>
+                <div class="item">
+                  <img src="C:\xampp\htdocs\Project\SOHO\Photos\product4.png" style="width:1300px; height: 400px;">
+              </div>
+              <div class="item">
+                <img src="C:\xampp\htdocs\Project\SOHO\Photos\mb1.png" style="width:1300px; height: 400px;">
+            </div>
+            <div class="item">
+              <img src="C:\xampp\htdocs\Project\SOHO\Photos\product6.png" style="width:1300px; height: 400px;">
+          </div>
+          <div class="item">
+            <img src="C:\xampp\htdocs\Project\SOHO\Photos\product7.png" style="width:1300px; height: 400px;">
+        </div>
+        <div class="item">
+          <img src="C:\xampp\htdocs\Project\SOHO\Photos\product8.png" style="width:1300px; height: 400px;">
+      </div>
+              </div>
+          
+              
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+      </div>
+      <hr>
+      <div class="BelowB" >
+        <div>
+          <a href="#account">
+          <div id="profile">
+            <p>
+              <img src="C:\xampp\htdocs\Project\SOHO\Photos\icons8-circled-user-male-skin-type-1-and-2-64.png">
+              ACCOUNT
+            </p>
+        </div></a>
+      </div>
+
+        <div id="cart" >
+          <div>
+            <a href="#cart">
+            <p style="color: rgb(51, 6, 58);" >
+            <img src="C:\xampp\htdocs\Project\SOHO\Photos\icons8-shopping-cart-641.png">
+          -
+            </p>
+            </a>
+          </div>
+          <div>
+            <a href="#cart">
+            <h3 align="left" id="count-el">0</h3></a>
+          </div>
+        
+        </div>
+        
+
+        <div>
+          
+        </div>
+        <div>
+          <div class="search-container1">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><img src="C:\xampp\htdocs\Project\SOHO\Photos\icons8-search-64 new.png" style="width: 35px;"></button>
+            </form>
+          </div>
+        </div>
+        
+      </div>
+
+            <div style="display: grid;grid-template-columns: 1fr 1fr;border-radius: 4px;">
+                <div>
+         <table style="margin-left: 5px;border-radius: 4px;" >
+            <tr >
+                <td ><a href="#product1"><img src="C:\xampp\htdocs\Project\SOHO\Photos\Product1.png" ></a></td>
+                <td> 
+                  <a href="#product1">
+                  <h3 id="product_disp"><u>Dexture Air Jordan trendy Sneakers For Men (Blue)</u></h3></a>
+                   <p> 
+                    Dexture Trade Shoes made of premium quality material, these shoes are extremely durable, light weight and comfortable for all age groups. 
+                    This pair of shoes are perfect for all occasions and is a must-have in your shoe collection.
+                     Add this to your footwear collection and get ready to look your best. Pair it up with your casual attires and flaunt your 
+                    exclusive stylish side. Use shoe bags to prevent from stains and mildew. Pair it with jeans and t-shirt to look decent and cool.
+                  </p>
+                  <p>General Information
+                    <table>
+                      <tr>
+                        <td>
+                          Brand
+                        </td>
+                        <td>
+                          Dexture Trade
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Manufacturer Email
+                        </td>
+                        <td>
+                          dexturetrade@gmail.com
+                        </td>
+                      </tr>
+                    </table>
+                  </p>
+                  <h2>Price : Rs.4,499<button id="increment-btn" onclick="increment()">Add TO CART</button></h2>
+                    
+                   
+              </td>
+            </tr>
+            <tr>
+                <td ><a href="#product2"><img src="C:\xampp\htdocs\Project\SOHO\Photos\product2.png"  style="width: 300px; height: 400px;"></a></td>
+                <td>
+                  <a href="#product2">
+                  <h3 id="product_disp"><u>NAVY WOOL BLEND DOUBLE BREASTED SUIT</u></h3></a>
+                  
+                   <p>In addition to being constructed from Imported Superior Fabrics, French crown Suits are built with top quality components and thoughtful
+                     construction. All our suits are double canvassed, with fully fused Belt trouser,
+                    for greater versatility and superior shape for your Legs</p>
+                   <p>Wool: wool Suits are a great all-around choice. They are breathable, soft, warm, hypoallergenic, easy to clean, moisture wicking 
+                    and flame resistant. For these reasons and others, you can’t go wrong with a pair of high-quality wool Suit.</p>
+                    <p>General Information
+                      <table>
+                        <tr>
+                          <td>
+                            Brand
+                          </td>
+                          <td>
+                            French Crown
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Manufacturer Email
+                          </td>
+                          <td>
+                            frenchcrown@gmail.com
+                          </td>
+                        </tr>
+                      </table>
+                    </p>
+                    <h2>Price : Rs.4,947<button id="increment-btn" onclick="increment()">Add TO CART</button></h2>
+                       
+              </td>
+            </tr>
+            <tr>
+                <td ><a href="#product3"><img src="C:\xampp\htdocs\Project\SOHO\Photos\product3.png" style="width: 300px; height: 400px;" ></a></td>
+                <td>
+                  <a href="#product3">
+                  <h3 id="product_disp"><u>Tommy Hilfiger Men Grey Dial Analog Watch</u></h3></a>
+                  <p>This watch offers 24 months warranty on the Movement and 12 months warranty on the Battery from the date of purchase.</p>
+                  <p>General Information
+                    <table>
+                      <tr>
+                        <td>
+                          COLLECTION
+                        </td>
+                        <td>
+                          HENRY
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          BRAND
+                        </td>
+                        <td>
+                          Tommy Hilfiger
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          FUNCTION
+                        </td>
+                        <td>
+                          Analog
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          MOVEMENT
+                        </td>
+                        <td>
+                          Quartz
+                        </td>
+                      </tr>
+                    </table>
+                  </p>
+                  <p>
+                    Tommy Hilfiger Grey Dial Analog Watch for Men
+                  </p>
+                  <p>
+                    Net Quantity: 1 N
+                  </p>
+                  <p>
+                    Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. 
+                    Email us at customercare@titan.co.in</p>
+                    <h2>Price : Rs.12,370<button id="increment-btn" onclick="increment()">Add TO CART</button></h2>
+                </td>
+            </tr>
+
+            <tr>
+                <td ><a href="#product4"><img src="C:\xampp\htdocs\Project\SOHO\Photos\product4.png" style="width: 300px;height: 400px;"></a></td>
+                <td>
+                  <a href="#product4">
+                  <h3 id="product_disp"><u>Andromeda Queen Size Sheesham Bed with Storage</u></h3></a>
+                  <p>Queen, 78" x 60", With Storage| 1.98m x 1.52m</p>
+                 <p>Product colour and texture may vary slightly due to the difference in screen calibrations and resolutions across different 
+                  displays owing to the photographic lighting sources or your device settings.
+                </p> 
+                <p>
+                   It comes with a solid headboard for additional comfort. A Sheesham 
+                  wood bed that is termite resistant and easy to maintain is a must-have. It will light up your room with its warm color. 
+                  A natural finished wooden bed at such an affordable price is a steal!
+                </p>
+                <p>General Information
+                  <table>
+                    <tr>
+                      <td>
+                        Brand
+                      </td>
+                      <td>
+                        WakeFit
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Manufacturer Email
+                      </td>
+                      <td>
+                        wakefit@gmail.com
+                      </td>
+                    </tr>
+                  </table>
+                  <h2>Price : Rs.23,500<button id="increment-btn" onclick="increment()">Add TO CART</button></h2>
+              </td>
+            </tr>
+         </table>
+        </div>
+        <div>
+            <table >
+                <tr>
+                    <td ><a href="#product5"><img src="C:\xampp\htdocs\Project\SOHO\Photos\product5.png" style="width: 300px;height: 400px;">
+                    </a></td>
+                    <td>
+                      <a href="#product5">
+                      <h3 id="product_disp"><u>Apple 2021 MacBook Pro  - Space Grey</u></h3></a>
+                  <p>Apple M1 Pro or M1 Max chip for a massive leap in CPU, GPU and machine learning performance.
+                    Up to 10-core CPU delivers up to 2x faster performance to fly through pro workflows quicker than ever.
+                    Up to 32-core GPU with up to 4x faster performance for graphics-intensive apps and games.
+                    6-core Neural Engine for up to 5x faster machine learning performance</p>
+                    <p>General Information
+                      <table>
+                        <tr>
+                          <td>
+                            Brand
+                          </td>
+                          <td>
+                            Apple
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Series
+                          </td>
+                          <td>
+                            Mackbook Pro
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Operating System
+                          </td>
+                          <td>
+                            MacOS 12 Monterey
+                          </td>
+                        </tr>
+                      </table>
+                      <h2>Price : Rs.2,39,900<button id="increment-btn" onclick="increment()">Add TO CART</button></h2>
+                  
+                    </td>
+                </tr>
+                <tr>
+                  <td ><a href="#product6"><img src="C:\xampp\htdocs\Project\SOHO\Photos\product6.png"  style="width: 300px; height: 400px;">
+                  </a></td>
+                  <td>
+                    <a href="#product6">
+                    <h3 id="product_disp"><u>MSI GeForce RTX 3060 Gaming X 12G I 12GB GDDR6 pci_e 192-bit Gaming Graphic Card </u></h3></a>
+                    <p>GeForce RTX 3060 GAMING X 12G 12GB GDDR6.
+                      CORES : 3584 Units I CORE CLOCKS: Boost: 1837 MHz.
+                      DisplayPort x 3 (v1.4a) HDMI x 1 (Supports 4K@120Hz as specified in HDMI 2.1).
+                      INTERFACE :PCI Express Gen 4 I MEMORY SPEED : 15 Gbps.
+                      3 Year Warranty
+                    </p>
+                    <p>General Information
+                      <table>
+                        <tr>
+                          <td>
+                            Brand
+                          </td>
+                          <td>
+                            MSI
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Series
+                          </td>
+                          <td>
+                            GeForce RTX 3060
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Graphics Card Ram Size
+                          </td>
+                          <td>
+                           12GB
+                          </td>
+                        </tr>
+                      </table>
+                      <h2>Price : Rs.55,000<button id="increment-btn" onclick="increment()">Add TO CART</button></h2>
+                 
+                  </td>
+                </tr>
+                <tr>
+                    <td ><a href="#product7"><img src="C:\xampp\htdocs\Project\SOHO\Photos\product7.png" style="width: 300px; height: 407.50px;">
+                    </a></td>
+                    <td>
+                      <a href="#product7">
+                      <h3 id="product_disp"><u>JBL Tune 760NC, Wireless Over Ear Active Noise Cancellation Headphones with Mic</u></h3></a>
+                      <p>
+                        ACTIVE NOISE CANCELLATION: Tune out the Noise & Tune in to your Music with JBL Tune 760NC wireless headset.
+                        JBL PURE BASS SOUND
+                        sound, punching out bass that’s both deep and powerful.
+                        <p>Up to 50 hours of playtime: Listen wirelessly for up to 35 hours with Active Noise Cancellation or up to 
+                          50 hours without Noise Cancellation for long-lasting fun.</p>
+                        
+                      </p>
+                      <p>General Information
+                        <table>
+                          <tr>
+                            <td>
+                              Brand
+                            </td>
+                            <td>
+                              JBL
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Series
+                            </td>
+                            <td>
+                              Tune
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Microphone Technology
+                            </td>
+                            <td>
+                              Stereo
+                            </td>
+                          </tr>
+                        </table>
+                        <h2>Price : Rs.7,999<button id="increment-btn" onclick="increment()">Add TO CART</button></h2>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td ><a href="#product8"><img src="C:\xampp\htdocs\Project\SOHO\Photos\product8.png" style="width: 300px;height: 400px;"></a>
+                    </td>
+                    <td>
+                      <a href="#product8">
+                      <h2 id="product_disp"><u>Panelled Rucksack with Adjustable Shoulder Straps</u></h2></a>
+                  <p>Multiple zipper compartments
+                    Store in a clean and dry environment, avoid contact with water & perfume
+                    Polyester
+                    One main compartment</p>
+                    <p>General Information
+                      <table>
+                        <tr>
+                          <td>
+                            Brand
+                          </td>
+                          <td>
+                            F-GEAR
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Marketed By
+                          </td>
+                          <td>
+                            Uber Fashion Merchandise PVT.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Manufactured By
+                          </td>
+                          <td>
+                            Uber Fashion Merchandise PVT. LTD. Jindal Edifice No 90/2, 2nd Stage, 3rd Main, Industrial Suburb, Yeshwantpur,
+                          </td>
+                        </tr>
+                      </table>
+                      <h2>Price : Rs.1,099<button id="increment-btn" onclick="increment()">Add TO CART</button></h2>
+
+                    </td>
+                </tr>
+             </table>
+        </div>
+        </div>
+        <footer class="foot">
+          <div style="border: 1px solid;border-radius: 0px;">
+            <table>
+            <tr >
+              <td style="border: 0px;padding-right: 400px;padding-left: 10px;">
+            
+              <li>
+                <a href="#contact" style="color:rgb(60, 177, 105)">Contact Us</a>
+              </li>
+            </td style="border: 0px;padding-right: 400px;">
+              <td style="border: 0px;">
+                 <li>
+                <a href="#contact" style="color:rgb(60, 177, 105)">Help/Support</a>
+              </li>
+           
+          </td>
+            </tr>
+            <tr>
+              <td style="border: 0px;padding-right: 400px;padding-left: 10px;">
+              
+              <li>
+                <a href="#contact" style="color:rgb(60, 177, 105)">Email</a>
+              </li></td>
+              <td style="border: 0px;padding-right: 400px;">
+                 <li>
+                <a href="#contact" style="color:rgb(60, 177, 105)">About</a>
+              </li></ul>
+            </tr></td>
+            
+          </table>
+          </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
